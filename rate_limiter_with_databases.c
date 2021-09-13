@@ -31,7 +31,7 @@ int main(int argc, char **argv)
     exit(1);
   }
 
-  if (mysql_real_connect(con, "localhost", "laura", "Password123#@!",
+  if (mysql_real_connect(con, "localhost", "laura", "#######",
   "card", 0, NULL, 0) == NULL)
   {
     finish_with_error(con);
